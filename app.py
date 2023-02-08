@@ -14,6 +14,10 @@ def home():
 def work():
     return 'Homework!!'
 
+@app.route('/about')
+def about():
+    return '<h1> Hello World <h1>'
+
 # This will run the app on http://localhost:5000
 if __name__ == '__main__':
     # Run the app in local network
