@@ -16,7 +16,7 @@ def work():
 
 @app.route('/about')
 def about():
-    return '<h1> Hello About  <h1>'
+    return 'Salom Shoxruhbek'
 
 # This will run the app on http://localhost:5000
 if __name__ == '__main__':
